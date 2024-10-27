@@ -122,6 +122,7 @@ int main(){
 				isEmpty();
 				break;
 			case 5:
+				free(node);
 				exit(1);
 			default:
 				printf("\nYanlis bir deger girdin!\n");
